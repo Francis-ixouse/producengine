@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product engine Search</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <form action="">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name=""
+          placeholder="Search Items"
+          id="search-item"
+          autocomplete="off"
+          onkeyup="search()"
+        />
+      </form>
+
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="images/T-Shirt/Everlane Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Everlane Tshirts</h2>
+            <h3>Php 300</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/Fresh Clean Tess Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Fresh Clean Tess Tshirts</h2>
+            <h3>Php 300</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/James Perse Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>James Perse Tshirts</h2>
+            <h3>Php 400</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/Amazon Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Amazon Tshirts</h2>
+            <h3>Php 340</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/Brooklinen Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Brooklinen Tshirt</h2>
+            <h3>Php 3600</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/Uniqlo Tshirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Uniqlo Tshirts</h2>
+            <h3>Php 700</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/T-Shirt/Lacosta Thirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Lacosta Tshirts</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+
+        <!-------------Shirts------------>
+        <div class="product">
+          <img src="images/Shirt/Tommy Hilfiger Shirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Tommy Hilfiger Shirts</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shirt/Gucci Shirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Gucci Shirts</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shirt/Zodiac Shirts.jpg" alt="" />
+          <div class="p-details">
+            <h2>Zodiac Shirts</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shirt/Arrow Shirts.jpg" alt="" />
+          <div class="p-details">
+            <h2>Arrow Shirts</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shirt/Louis Phillipe Shirts.jpg" alt="" />
+          <div class="p-details">
+            <h2>Louis Phillipe Shirts</h2>
+            <h3>Php 300</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shirt/Peter England shirt.jpg" alt="" />
+          <div class="p-details">
+            <h2>Peter England Trousers</h2>
+            <h3>Php 300</h3>
+          </div>
+        </div>
+
+        <!--------------Trousers-->
+        <div class="product">
+          <img src="images/Trouser/Peter England Trouser.jpg" alt="" />
+          <div class="p-details">
+            <h2>Peter England Trousers</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Trouser/Levi's Trouser.jpg" alt="" />
+          <div class="p-details">
+            <h2>Levi's Trousers</h2>
+            <h3>Php 300</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Trouser/Allen Solly Trouser.jpg" alt="" />
+          <div class="p-details">
+            <h2>Allen Solly Trousers</h2>
+            <h3>Php 200</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Trouser/Van Heusen Trouser.jpg" alt="" />
+          <div class="p-details">
+            <h2>Van Heusen Trousers</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+
+        <!----------------Shoes------------>
+        <div class="product">
+          <img src="images/Shoes/Nike Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Nike Shoes</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Reebok Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Reebok Shoes</h2>
+            <h3> Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Adidas Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Adidas Shoes</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Puma Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Puma Shoes</h2>
+            <h3>Php 700</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Beta Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Beta Shoes</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Woodland Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Woodland Shoes</h2>
+            <h3>Php 500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Shoes/Sketchers Shoe.jpg" alt="" />
+          <div class="p-details">
+            <h2>Sketchers Shoes</h2>
+            <h3>Php 600</h3>
+          </div>
+        </div>
+
+        <!-----------------Bags----------------->
+        <div class="product">
+          <img src="images/Bag/Gucci Bags.jpg" alt="" />
+          <div class="p-details">
+            <h2>Gucci Bags</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Bag/Fendi Bags.jpg" alt="" />
+          <div class="p-details">
+            <h2>Fendi Bags</h2>
+            <h3>Php 700</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Bag/Prada Bags.jpg" alt="" />
+          <div class="p-details">
+            <h2>Prada Bags</h2>
+            <h3>Php 900</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Bag/Chanel Bags.jpg" alt="" />
+          <div class="p-details">
+            <h2>Chanel Bags</h2>
+            <h3>Php 1000</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Bag/Louis Vuitton Bags.jpg" alt="" />
+          <div class="p-details">
+            <h2>Louis Vuitton Bags</h2>
+            <h3>Php 900</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="images/Bag/Fendi Bags1.jpg" alt="" />
+          <div class="p-details">
+            <h2>Fendi Bags</h2>
+            <h3>Php 800</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/JS/app.js"></script>
+  </body>
+</html>
